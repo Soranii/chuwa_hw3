@@ -1,0 +1,15 @@
+#students-table * {
+  border: 1px solid;
+}
+#students-table {
+  border-collapse: collapse;
+}
+.cell {
+  text-align: center;
+  padding: 3px 10px;
+}
+@media screen and (max-width: 500px) {
+  .cell {
+    padding: 0px;
+  }
+}
